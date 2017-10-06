@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MemoMap</string>
+    <string name="update">Mình sẽ cập nhật sớm.</string>
+    <string name="infoat">Bạn có nhớ thông tin tại vị trí</string>
+    <string name="feedback">Phản hồi</string>
+    <string name="map">Bản đồ</string>
+    <string name="ad">Nếu phương pháp này hữu ích, hãy nhấp để hỗ trợ mình viết ứng dụng trên GoogleMap</string>
+    <string name="banner_ad_unit_id">ca-app-pub-7964058081042027/8179973354</string>
+    <string name="interstitial_ad_unit_id">ca-app-pub-7964058081042027/8676944606</string>
+</resources>

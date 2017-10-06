@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">MemoMap</string>
+    <string name="update">I will update soon.</string>
+    <string name="infoat">Do you remember information at location </string>
+    <string name="feedback">Feedback</string>
+    <string name="map">Map</string>
+    <string name="ad">If this method is useful, please click to support me build it on GoogleMap</string>
+    <string name="banner_ad_unit_id">ca-app-pub-7964058081042027/8179973354</string>
+    <string name="interstitial_ad_unit_id">ca-app-pub-7964058081042027/8676944606</string>
+</resources>

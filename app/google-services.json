@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "242538287980",
+    "firebase_url": "https://memomap-f09bd.firebaseio.com",
+    "project_id": "memomap-f09bd",
+    "storage_bucket": "memomap-f09bd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:242538287980:android:5f999cb604f16746",
+        "android_client_info": {
+          "package_name": "com.popland.pop.memorymap"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "242538287980-qmn6u5uqij661u2i45n4h4o4ac5675ts.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.popland.pop.memorymap",
+            "certificate_hash": "b47060e140ba3a9c9e6f48f59ffccda4ffbd0322"
+          }
+        },
+        {
+          "client_id": "242538287980-da7vivs456qtiofv574d1oafiku92642.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDm4TagJiMM9F4xvqTdOKwDtzwRkVsS2Jc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "242538287980-da7vivs456qtiofv574d1oafiku92642.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

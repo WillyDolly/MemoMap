@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_check"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.popland.pop.memomap.CheckActivity">
+    <TextView
+        android:id="@+id/tvCheck"
+        android:textSize="24sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"/>
+
+    <Button
+        android:id="@+id/btnCheck"
+        android:text="OK"
+        android:textSize="24sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvCheck"
+        android:layout_marginTop="30dp"
+        android:layout_alignParentLeft="true"/>
+    <Button
+        android:id="@+id/btnMap"
+        android:text="@string/map"
+        android:textSize="24sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvCheck"
+        android:layout_marginTop="30dp"
+        android:layout_alignParentRight="true"/>
+    <Button
+        android:id="@+id/btnFeedback"
+        android:text="@string/feedback"
+        android:textSize="24sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnCheck"
+        android:layout_marginTop="20dp"
+        android:layout_centerInParent="true"/>
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#121211"
+       android:layout_centerInParent="true"/>
+
+    <TextView
+        android:id="@+id/tvAd"
+        android:text="@string/ad"
+        android:textSize="24sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv" />
+    <Button
+        android:id="@+id/btnVideoAd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Video Ad"
+        android:layout_below="@+id/tvAd"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="10dp"/>
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/banner_ad_unit_id"/>
+
+</RelativeLayout>
